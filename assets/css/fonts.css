@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/SourceSerifPro-Regular.woff') format('woff'),
+        url('../fonts/SourceSerifPro-Regular.ttf') format('truetype'),
+        url('../fonts/SourceSerifPro-Regular.svg#SourceSerifPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/LibreFranklin-Regular.woff') format('woff'),
+        url('../fonts/LibreFranklin-Regular.ttf') format('truetype'),
+        url('../fonts/LibreFranklin-Regular.svg#LibreFranklin-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/LibreFranklin-Bold.woff') format('woff'),
+        url('../fonts/LibreFranklin-Bold.ttf') format('truetype'),
+        url('../fonts/LibreFranklin-Bold.svg#LibreFranklin-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/TenorSans.woff') format('woff'),
+        url('../fonts/TenorSans.ttf') format('truetype'),
+        url('../fonts/TenorSans.svg#TenorSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

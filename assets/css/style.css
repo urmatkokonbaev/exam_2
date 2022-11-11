@@ -1,0 +1,222 @@
+@import "./fonts.css";
+
+:root {
+    --dark-color: #000000;
+    --disable-color: #666666;
+}
+
+/* BASSE CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+/* BASSE CONFIG */
+
+/* UNIQUE */
+.container {
+    max-width: 1240px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid__col-6 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid__col-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid__col-3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* UNIQUE */
+
+/* HEADER */
+.header {
+    height: 90px;
+}
+.header .d-flex {
+    height: 100%;
+}
+.burger {
+    display: none;
+}
+.burger-menu {
+    position: relative;
+    display: inline-flex;
+    z-index: 9999;
+    width: 40px;
+    height: 3px;
+    background-color: var(--dark-color);
+    
+
+}
+.header__link {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--dark-color);
+    font-family: 'Libre Franklin' Arial, Helvetica, sans-serif;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* HEADER */
+
+/* HERO */
+.hero {
+    padding: 60px 0;
+}
+
+.left-part {
+    width: 721px;
+    height: 474px;
+}
+
+.left-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-part {
+    padding-left: 51px;
+}
+
+.right-part__suptitle {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--disable-color);
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+}
+
+.right-part__title {
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+    width: 430px;
+    font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
+    margin-bottom: 27px;
+    margin-top: 18px;
+
+}
+
+.right-part__desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--disable-color);
+    width: 420px;
+    font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
+}
+
+.right-part__author {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-top: 28px;
+}
+
+/* HERO */
+
+/* MAIN */
+.main {
+    padding-bottom: 65px;
+}
+.main .grid {
+    column-gap: 20px;
+}
+.card__img {
+    padding: 25px 10px;
+}
+
+.card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.card__content {
+    padding: 0 10px 49px;
+}
+
+.card__suptitle {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--disable-color);
+    font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
+}
+
+.card__title {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    font-family: 'Tenor Sans',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+   
+}
+
+.card__author {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Libre Franklin',Arial, Helvetica, sans-serif;
+    color: var(--dark-color);
+}
+
+/* MAIN */
